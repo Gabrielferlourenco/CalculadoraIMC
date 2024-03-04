@@ -1,0 +1,46 @@
+html{
+    background-color: teal;
+}
+
+#main-container{
+    margin: 100px auto;
+    padding: 15px;
+    background-color: antiquewhite;
+    width: 1000px;
+    height: 400px;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+
+#input-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#title {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+.numbers {
+    display: flex;
+    margin: 70px auto;
+    height: fit-content;
+    width: 300px;
+    font-size: 40px;
+}
+
+#result{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+}
+
+#btn {
+    height: fit-content;
+    width: 200px;
+    font-size: 40px;
+    margin: auto;
+}
